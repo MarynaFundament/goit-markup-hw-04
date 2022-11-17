@@ -130,6 +130,18 @@ img{
 
 /*---------------------MAIN------------------------*/
 
+.overlay{
+    height: 600px;
+    border: solid tomato;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: #212121;
+    background-image: 
+    
+    url("../images/overlay.png");
+    
+}
 
 .hero{
     background-color: #2F303A;
@@ -219,6 +231,7 @@ margin-right: auto;
     justify-content: space-between;
         }
 
+
 .third-header{
             font-weight: 700;
             font-size: 14px;
@@ -230,6 +243,18 @@ margin-right: auto;
             margin-bottom: 10px;
                
     }
+
+
+.third-header::before{
+display: block;
+height: 120px;
+content: "";
+background-size: contain;
+background-repeat: no-repeat;
+background-image: url("../images/Group1icon..png");
+background-position: center;
+}
+
 
 .description-paragraph{
         font-family:var(--primary-font);
