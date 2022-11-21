@@ -138,8 +138,11 @@ img{
     margin-left: auto;
     border-color: #212121;
     background-image: 
-    
-    url("../images/overlay.png");
+    linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+
+    url(../images/overlay.png)
     
 }
 
@@ -259,7 +262,7 @@ background-position: center;
 .description-paragraph{
         font-family:var(--primary-font);
         font-size: 14px;
-        line-height: 1.71;
+        
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
 
@@ -342,6 +345,32 @@ background-position: center;
     color: var(--primary-text-color);
     text-align: center;
    
+}
+
+.list-social-netw{
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+}
+
+.social-netw{
+    width: 44px;
+    height: 44px;
+}
+
+.link-social-netw{
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*???*/
+}
+
+.social-netw-icons{
+
 }
 
 
