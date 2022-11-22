@@ -351,6 +351,9 @@ background-position: center;
      display: flex;
      justify-content: center;
      gap: 10px;
+     padding-top:16px;
+     border-radius: 50%;
+
 }
 
 .social-netw{
@@ -361,17 +364,29 @@ background-position: center;
 .link-social-netw{
     width: 100%;
     height: 100%;
-    background-color: greenyellow;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-/*???*/
+}
+
+.social-netw:hover{
+    background-color: var(--accent-color);
+    border-radius: 50%;
 }
 
 .social-netw-icons{
-
+    color: #AFB1B8;
 }
+
+   .social-netw-icons:hover{
+    color: white;
+}
+
+
+
+
+
 
 
 /*--------------------- PORTFOLIO------------------------*/
