@@ -392,7 +392,8 @@ img{
     fill: #AFB1B8;
 }
 
-.link-social-netw:hover{
+.link-social-netw:hover,
+.link-social-netw:focus{
     background-color: var(--accent-color);
     fill: white;
     }  
@@ -458,11 +459,14 @@ img{
     margin-left: 32px;
     }
 
-.pclient-item:hover{
+.pclient-item:hover,
+.pclient-item:focus
+{
     border: 1px solid var(--accent-color); 
 }
 
-.link-pclient:hover{
+.link-pclient:hover,
+.link-pclient:focus{
     fill: var(--accent-color);
 }
 
@@ -679,7 +683,9 @@ img{
 }
 
 
-.link-list-ficons:hover{
+.link-list-ficons:hover,
+.link-list-ficons:focus{
+
   background-color: var(--accent-color);
   }
 
